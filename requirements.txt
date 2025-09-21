@@ -1,0 +1,8 @@
+beautifulsoup4==4.12.2
+requests==2.31.0
+pandas>=2.2.0
+# lxml==4.9.3  # Often fails to build, html.parser works fine as alternative
+
+# Optional: For Corporate BS API local server
+ flask==2.3.3
+ flask-cors==4.0.0
