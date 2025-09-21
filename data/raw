@@ -1,0 +1,9 @@
+# Raw Data Directory
+
+This directory will contain extracted data when the pipeline runs:
+- best_article.csv - Article with highest keyword frequency  
+- best_article.json - Same data in JSON format
+- corporate_phrase.csv - Corporate jargon phrase used
+- corporate_phrase.json - Same data in JSON format
+
+Files are created automatically when running `python main.py`
