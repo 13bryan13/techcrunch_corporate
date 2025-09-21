@@ -1,0 +1,15 @@
+__pycache__/
+data/raw/
+data/enriched/
+.env
+# Ignore generated data files but keep directory structure
+data/raw/*.csv
+data/raw/*.json
+data/enriched/*.csv  
+data/enriched/*.json
+examples/*.txt
+
+# But keep the directories themselves
+!data/raw/README.md
+!data/enriched/README.md
+!examples/README.md
