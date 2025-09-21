@@ -116,27 +116,7 @@ if "choices" in data and len(data["choices"]) > 0:
 
 ## Challenges and Solutions
 
-### Challenge 1: Awkward Phrase Integration
-**Problem**: Initial attempts often produced forced, unnatural language
-**Original Output**: "This startup is good and also leveraging synergistic opportunities."
-**Solution**: Enhanced prompt with specific natural flow instructions
-**Improved Output**: "TechCorp is leveraging synergistic opportunities in enterprise automation..."
-
-### Challenge 2: Inconsistent Response Quality
-**Problem**: Some responses were generic or lacked investment focus
-**Solution**: Added "seasoned venture capital analyst" role and "compelling" quality descriptor
-**Result**: More focused, investment-oriented language in 90% of responses
-
-### Challenge 3: Token Limit Management
-**Problem**: Long articles caused API errors
-**Solution**: Implemented intelligent content truncation
-**Implementation**: Preserve first 2000 characters to maintain article essence
-**Result**: Zero token limit errors while maintaining content quality
-
-### Challenge 4: API Timeout Handling
-**Problem**: Network issues occasionally caused pipeline failures
-**Solution**: 30-second timeout with graceful error messages
-**Result**: Pipeline continues running even with individual API failures
+The main challenge I had was integrating my main.py file with the deepseek_enrichment.py file. At first, I was having issues connecting to the deepseek platform but that was eventually fixed after I changed the url. After that, however, I was receiving errors which I fixed by changing the enrichment file and how it interacted with deepseek. Some other issues I ran into was the API not working (probably because the user stopped hosting it?), so I had to clone the repo and run it normally. With the help of AI, however, everything was resolved by me asking what the error messages meant and how to fix them.
 
 ## Creative Applications Discovered
 
