@@ -1,0 +1,7 @@
+# Enriched Data Directory
+
+This directory will contain AI-enhanced data:
+- enriched_article.csv - Original article data plus AI-generated VC pitch
+- enriched_article.json - Same data in JSON format
+
+Files are created automatically after DeepSeek AI processing.
